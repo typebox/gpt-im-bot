@@ -8,7 +8,6 @@ from slack_bolt import App
 def main(args):
     # Get the Home Assistant instance URL, bearer token, and sensors from environment variables
     SLACK_BOT_TOKEN = os.environ.get("SLACK_BOT_TOKEN")
-    SLACK_APP_TOKEN = os.environ.get("SLACK_APP_TOKEN")
     OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 
     print(f"Received args:\n{args}")

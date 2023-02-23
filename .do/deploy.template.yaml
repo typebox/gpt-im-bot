@@ -5,9 +5,9 @@ functions:
 - github:
     branch: master
     deploy_on_push: true
-    repo: digitalocean/sample-functions-python-helloworld
+    repo: typebox/gpt-im-bot
   name: py-api
   routes:
   - path: /
   source_dir: /
-name: python-helloworld
+name: gpt-im-bot
